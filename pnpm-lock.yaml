@@ -20,6 +20,9 @@ dependencies:
   '@reduxjs/toolkit':
     specifier: ^2.0.1
     version: 2.0.1(react-redux@9.0.4)(react@18.2.0)
+  '@use-gesture/react':
+    specifier: ^10.3.0
+    version: 10.3.0(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -29,6 +32,9 @@ dependencies:
   react-redux:
     specifier: ^9.0.4
     version: 9.0.4(@types/react@18.2.45)(react-native@0.73.2)(react@18.2.0)(redux@5.0.0)
+  react-router:
+    specifier: ^6.21.2
+    version: 6.21.2(react@18.2.0)
   react-router-dom:
     specifier: ^6.21.0
     version: 6.21.0(react-dom@18.2.0)(react@18.2.0)
@@ -2758,6 +2764,11 @@ packages:
     engines: {node: '>=14.0.0'}
     dev: false
 
+  /@remix-run/router@1.14.2:
+    resolution: {integrity: sha512-ACXpdMM9hmKZww21yEqWwiLws/UPLhNKvimN8RrYSqPSvB3ov7sLvAcfvaxePeLvccTQKGdkDIhLYApZVDFuKg==}
+    engines: {node: '>=14.0.0'}
+    dev: false
+
   /@rollup/rollup-android-arm-eabi@4.5.0:
     resolution: {integrity: sha512-OINaBGY+Wc++U0rdr7BLuFClxcoWaVW3vQYqmQq6B3bqQ/2olkaoz+K8+af/Mmka/C2yN5j+L9scBkv4BtKsDA==}
     cpu: [arm]
@@ -3243,6 +3254,19 @@ packages:
   /@ungap/structured-clone@1.2.0:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
+
+  /@use-gesture/core@10.3.0:
+    resolution: {integrity: sha512-rh+6MND31zfHcy9VU3dOZCqGY511lvGcfyJenN4cWZe0u1BH6brBpBddLVXhF2r4BMqWbvxfsbL7D287thJU2A==}
+    dev: false
+
+  /@use-gesture/react@10.3.0(react@18.2.0):
+    resolution: {integrity: sha512-3zc+Ve99z4usVP6l9knYVbVnZgfqhKah7sIG+PS2w+vpig2v2OLct05vs+ZXMzwxdNCMka8B+8WlOo0z6Pn6DA==}
+    peerDependencies:
+      react: '>= 16.8.0'
+    dependencies:
+      '@use-gesture/core': 10.3.0
+      react: 18.2.0
+    dev: false
 
   /@vitejs/plugin-react-swc@3.5.0(vite@5.0.10):
     resolution: {integrity: sha512-1PrOvAaDpqlCV+Up8RkAh9qaiUjoDUcjtttyhXDKw53XA6Ve16SOp6cCOpRs8Dj8DqUQs6eTW5YkLcLJjrXAig==}
@@ -6485,6 +6509,16 @@ packages:
       react: '>=16.8'
     dependencies:
       '@remix-run/router': 1.14.0
+      react: 18.2.0
+    dev: false
+
+  /react-router@6.21.2(react@18.2.0):
+    resolution: {integrity: sha512-jJcgiwDsnaHIeC+IN7atO0XiSRCrOsQAHHbChtJxmgqG2IaYQXSnhqGb5vk2CU/wBQA12Zt+TkbuJjIn65gzbA==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      react: '>=16.8'
+    dependencies:
+      '@remix-run/router': 1.14.2
       react: 18.2.0
     dev: false
 
