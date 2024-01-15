@@ -12,6 +12,7 @@ import {
 import { useSpring, animated } from 'react-spring';
 import { useGesture } from '@use-gesture/react';
 
+
 const calc = (x, y, rect) => [
     -(y - rect.top - rect.height / 2) / 20,
     (x - rect.left - rect.width / 2) / 20,
@@ -48,13 +49,13 @@ const ServiceCard = ({
 
     return (
         <animated.div
-            {...bind()}
             style={{
                 transform: springProps.xys.to(trans),
                 maxWidth: 345,
                 margin: 2,
                 background: theme.palette.mode === 'dark' ? 'rgba(255, 255, 255, 0.1)' : 'rgba(0, 0, 0, 0.1)'
             }}
+            {...bind()}
         >
             <Card>
                 <CardContent>

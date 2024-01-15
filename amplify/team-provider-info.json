@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cgeecleancom-dev-185649-authRole",
+      "UnauthRoleArn": "arn:aws:iam::239977638281:role/amplify-cgeecleancom-dev-185649-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::239977638281:role/amplify-cgeecleancom-dev-185649-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-cgeecleancom-dev-185649-deployment",
+      "UnauthRoleName": "amplify-cgeecleancom-dev-185649-unauthRole",
+      "StackName": "amplify-cgeecleancom-dev-185649",
+      "StackId": "arn:aws:cloudformation:us-east-1:239977638281:stack/amplify-cgeecleancom-dev-185649/961f2cb0-b338-11ee-8f2e-126dc60b95b3",
+      "AmplifyAppId": "dtx1o3vzex786"
+    }
+  }
+}
