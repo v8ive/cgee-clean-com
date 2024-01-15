@@ -10,10 +10,11 @@ import {
     Typography,
     useTheme,
     Container,
+    Grow,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link as RouterLink, useNavigate } from 'react-router-dom';
-import { AccountCircle } from '@mui/icons-material';
+import { AccountCircle, Image } from '@mui/icons-material';
 
 const NavigationHeader = ({ isAuthenticated }) => {
     const navigate = useNavigate();
@@ -110,7 +111,7 @@ const NavigationHeader = ({ isAuthenticated }) => {
 
                     {/* Logo in the middle */}
                     <RouterLink to="/" style={{ textDecoration: 'none', color: 'inherit', flexGrow: 1, textAlign: 'center' }}>
-                        <Typography variant="h6">CGee Clean</Typography>
+                        <img src={'/CGClean-Logo.png'} alt="Logo" style={{ maxHeight: '100px' }} />
                     </RouterLink>
 
                     {/* User avatar on the right */}
